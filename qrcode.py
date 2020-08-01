@@ -15,7 +15,7 @@ url = pyqrcode.create(s)
 for a in range(1,5):
       print("QRcode is generating...")
 
-print('URL genrated sucessfully...:)')
+print('QRcode genrated sucessfully...:)')
   
 # Create and show" 
 url.show()
