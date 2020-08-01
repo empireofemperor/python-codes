@@ -12,11 +12,9 @@ s = input("QR code Creater.\nEnter the url to create the QR-CODE.\n\nURl : ")
 # Generate QR code 
 url = pyqrcode.create(s)
 
-print('Url is getting genrated.')
-print('Url is getting genrated..')
-print('Url is getting genrated...')
-print('Url is getting genrated....')
-print('Url is getting genrated.....\n')
+for a in range(1,5):
+      print("QRcode is generating...")
+
 print('URL genrated sucessfully...:)')
   
 # Create and show" 
